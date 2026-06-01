@@ -1,0 +1,19 @@
+{
+  "name": "file-online-collaboration-server",
+  "version": "1.0.0",
+  "description": "Yjs WebSocket collaboration server for File Online",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "bcryptjs": "^3.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "lib0": "^0.2.88",
+    "ws": "^8.17.0",
+    "y-websocket": "^2.0.3",
+    "yjs": "^13.6.15"
+  }
+}
